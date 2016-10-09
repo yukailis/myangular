@@ -1,0 +1,487 @@
+@charset "UTF-8";
+img {
+  border: none;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/* ----------------------------home页---------------------------------*/
+/* 头部 */
+.h_header {
+  height: 50px;
+  width: 100%;
+  background: #39d184;
+  position: relative; }
+  .h_header #back {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 12px;
+    height: auto; }
+  .h_header p {
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+    text-align: center; }
+    .h_header p img {
+      width: 12px;
+      height: auto;
+      margin-left: 5px; }
+
+/* 中部 */
+.h_main {
+  -webkit-flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  overflow: scroll; }
+  .h_main .h_top {
+    width: 100%;
+    height: 35px;
+    background: #e1efe7;
+    padding-top: 5px; }
+    .h_main .h_top .input {
+      height: 22px;
+      width: 95%;
+      padding-left: 10px;
+      margin-left: 2.5%;
+      border-radius: 8px;
+      background: #fff;
+      font-size: 14px; }
+      .h_main .h_top .input img {
+        width: 13px;
+        height: auto; }
+      .h_main .h_top .input #txt {
+        width: 80%;
+        height: 18px;
+        border: none;
+        outline: none; }
+
+#h_pic {
+  width: 100%;
+  height: 90px; }
+
+.h_center {
+  width: 100%;
+  height: 190px;
+  padding: 0 15px 0 15px; }
+  .h_center p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px; }
+  .h_center ul {
+    width: 100%;
+    height: 150px; }
+    .h_center ul li {
+      width: 20%;
+      height: 40px;
+      background: #f6f6f6;
+      text-align: center;
+      line-height: 40px;
+      float: left;
+      margin-left: 20px;
+      margin-bottom: 10px; 
+     color: #999999;}
+      .h_center ul li:nth-child(1) {
+        margin-left: 0; }
+      .h_center ul li:nth-child(5) {
+        margin-left: 0; }
+      .h_center ul li:nth-child(9) {
+        margin-left: 0; }
+      .h_center ul li:hover {
+        background: #d2f6e3; }
+
+.h_bottom {
+  padding: 0 15px 0 15px; }
+  .h_bottom p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #f3f2f2;
+    color: #ff490b; }
+    .h_bottom p img {
+      width: 20px;
+      height: auto;
+      margin-right: 5px;
+      margin-top: -4px; }
+  .h_bottom dl {
+    width: 47.5%;
+    height: 150px;
+    float: left;
+    margin-left: 5%; }
+    .h_bottom dl:nth-child(2) {
+      margin-left: 0; }
+    .h_bottom dl:nth-child(4) {
+      margin-left: 0; }
+    .h_bottom dl:nth-child(6) {
+      margin-left: 0; }
+    .h_bottom dl img {
+      width: 100%;
+      height: 110px; }
+    .h_bottom dl dd {
+      line-height: 40px;
+      text-align: center;
+      color: #333333; }
+
+/* 背景 */
+.b_color {
+  width: 100%;
+  height: 10px;
+  background: #f3f2f2; }
+
+/* ----------------------------food页---------------------------------*/
+.f_header {
+  height: 50px;
+  width: 100%;
+  background: #39d184;
+  position: relative; }
+  .f_header #back {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 12px;
+    height: auto; }
+  .f_header p {
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+    text-align: center; }
+
+.f_main {
+  -webkit-flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  padding: 0 15px 0 0; }
+  .f_main dl {
+    width: 45%;
+    margin-top: 15px;
+    margin-left: 5%;
+    position: relative;
+    float: left; }
+    .f_main dl img {
+      width: 100%;
+      height: auto; }
+    .f_main dl dd p {
+      width: 100%;
+      color: #535353;
+      line-height: 40px; }
+    .f_main dl dd span {
+      width: 100%;
+      display: block;
+      color: #cacaca;
+      font-size: 14px; }
+    .f_main dl dd img {
+      width: 17px;
+      height: auto;
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+
+/* ----------------------------food_x页---------------------------------*/
+.fx_header {
+  height: 50px;
+  width: 100%;
+  background: #39d184;
+  position: relative; }
+  .fx_header #back {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 12px;
+    height: auto; }
+  .fx_header p {
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+    text-align: center; }
+
+.fx_main {
+  -webkit-flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  overflow: scroll; }
+  .fx_main .fx_pic {
+    width: 100%;
+    height: 201px;
+    padding: 10px 10px 0 10px; }
+  .fx_main .fx_head {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px 10px 0 10px; }
+    .fx_main .fx_head span {
+      float: right;
+      color: #ff3f11;
+      font-size: 12px; }
+  .fx_main .fx_comment {
+    width: 100%;
+    height: 30px;
+    padding: 10px 10px 0 10px; }
+    .fx_main .fx_comment img {
+      width: 10px;
+      height: auto;
+      margin-top: -3px; }
+    .fx_main .fx_comment .fx_right {
+      margin-right: 10px; }
+  .fx_main .fx_person {
+    width: 100%;
+    height: 75px;
+    padding-top: 10px;
+    line-height: 60px;
+    padding: 10px 10px 0 10px; }
+    .fx_main .fx_person img {
+      width: 55px;
+      height: auto;
+      float: left; }
+    .fx_main .fx_person p {
+      color: #000000;
+      float: left;
+      margin-left: 10px; }
+    .fx_main .fx_person .fx_heads {
+      float: right;
+      padding-top: 13px; }
+      .fx_main .fx_person .fx_heads img {
+        width: 35px;
+        height: auto;
+        float: left;
+        margin-left: 5px; }
+      .fx_main .fx_person .fx_heads span {
+        float: right;
+        margin-left: 5px;
+        color: #ff3f11;
+        font-size: 12px;
+        line-height: 38px; }
+
+.fx_details {
+  width: 100%;
+  padding: 10px 10px 0 10px; }
+  .fx_details .fx_top {
+    width: 100%;
+    height: 40px;
+    position: relative; }
+    .fx_details .fx_top ul {
+      width: 100%;
+      height: 40px;
+      border-bottom: 1px solid #f7f6f6; }
+      .fx_details .fx_top ul li {
+        width: 33.3%;
+        height: 40px;
+        color: #737373;
+        text-align: center;
+        line-height: 40px;
+        float: left; }
+      .fx_details .fx_top ul .fx_col {
+        color: #ff3f11; }
+    .fx_details .fx_top .fx_line {
+      width: 33.3%;
+      border: 1px solid #ff3f11;
+      font-size: 0;
+      position: absolute;
+      left: 33.3%;
+      bottom: 0; }
+  .fx_details .fx_page h3 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    color: #585858; }
+  .fx_details .fx_page p {
+    line-height: 24px;
+    color: #8d8d8d;
+    margin-bottom: 15px; }
+  .fx_details .fx_page img {
+    width: 48%;
+    height: 110px;
+    float: left; }
+  .fx_details .fx_page .img {
+    float: right; }
+
+.fx_footer ul {
+  width: 100%;
+  height: 50px; }
+  .fx_footer ul li {
+    width: 33.3%;
+    height: 50px;
+    text-align: center;
+    float: left;
+    color: #6e6e6e; }
+    .fx_footer ul li:nth-child(3) {
+      background: #39d184;
+      color: #e1f6ea; }
+      .fx_footer ul li:nth-child(3) i {
+        color: #fff;
+        display: inline;
+        line-height: 50px;
+        margin-right: 5px; }
+    .fx_footer ul li i {
+      display: block;
+      font-size: 24px;
+      color: #bbbbbb; }
+
+/* ----------------------------around页---------------------------------*/
+#a_pic {
+  width: 100%;
+  height: 150px; }
+
+/* 页面导航 */
+.c_navs {
+  width: 100%;
+  height: 95px;
+  display: -webkit-flex; }
+  .c_navs a {
+    width: 25%;
+    height: 90px;
+    text-align: center;
+    padding-top: 11px; }
+    .c_navs a dl {
+      width: 100%; }
+    .c_navs a img {
+      width: 55px;
+      height: auto; }
+    .c_navs a dd {
+      margin-top: 5px;
+      color: #3a3735; }
+
+/* ----------------------------myside页---------------------------------*/
+.m_main {
+  -webkit-flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  overflow: scroll; }
+  .m_main .m_top {
+    width: 100%;
+    height: 50px;
+    position: relative; }
+    .m_main .m_top ul {
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #e8e8e8; }
+      .m_main .m_top ul li {
+        width: 25%;
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        text-align: center;
+        color: #333333; }
+    .m_main .m_top .m_line {
+      width: 25%;
+      border: 1px solid #ff3f11;
+      font-size: 0;
+      position: absolute;
+      left: 0%;
+      bottom: 0; }
+  .m_main .m_now {
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    color: #999999; }
+
+#five {
+  width: 100%;
+  height: 140px;
+  margin-top: 20px; }
+
+.a_bottom {
+  width: 100%;
+  height: 120px;
+  padding: 0 15px 0 15px; }
+  .a_bottom .a_left {
+    width: 50%;
+    height: 120px;
+    float: left; }
+  .a_bottom dl {
+    width: 50%;
+    height: 60px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #e8e8e8; }
+    .a_bottom dl img {
+      position: absolute;
+      bottom: 0;
+      right: 10px; }
+    .a_bottom dl dd {
+      padding-top: 10px; }
+      .a_bottom dl dd p {
+        color: #333333; }
+      .a_bottom dl dd span {
+        color: #b6b6b6; }
+    .a_bottom dl .a_img1 {
+      width: 100px;
+      height: auto; }
+    .a_bottom dl .a_img2 {
+      width: 50px;
+      height: auto; }
+    .a_bottom dl .a_img3 {
+      width: 70px;
+      height: auto; }
+
+.m_big {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden; }
+  .m_big .m_contain {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 100%;
+    top: 0; }
+    .m_big .m_contain:nth-child(1) {
+      left: 0; }
+
+.m_contain {
+  width: 100%;
+  height: 100%; }
+  .m_contain dl {
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 0 10px 15px;
+    position: relative; }
+    .m_contain dl dd {
+      padding-top: 15px; }
+  .m_contain dt {
+    float: left;
+    margin-right: 15px; }
+  .m_contain dt img {
+    width: 111px;
+    height: auto; }
+  .m_contain dd h3 {
+    color: #333333;
+    line-height: 30px;
+    font-size: 16px; }
+  .m_contain dd p {
+    color: #999999; }
+  .m_contain #pos {
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+    color: #ff0000;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    padding: 0 3px 0 3px;
+    right: 5%;
+    top: 36%;
+    font-size: 12px; }
+
+/*# sourceMappingURL=home.css.map */

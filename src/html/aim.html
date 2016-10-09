@@ -1,0 +1,32 @@
+<div class="header1">
+	<div class="input">
+		<label for="#txt"><img src="img/big_03.png" alt=""></label>
+		<input type="text" id="txt" placeholder="搜索你想去的目的地">
+	</div>
+</div>
+<main class="main section2">
+		<div class="t_left">
+			<ul class="create-dom">
+				<li class="li_col"><a ui-sref="aim.hot">热门</a></li>
+				<li><a ui-sref="aim.five-one">五一去哪</a></li>
+				<li><a ui-sref="aim.around">周边</a></li>
+				<li><a ui-sref="aim.jiang">江浙沪</a></li>
+				<li><a ui-sref="aim.guang">广东南海</a></li>
+				<li><a ui-sref="aim.all">全国</a></li>
+				<li><a ui-sref="aim.japan">日韩</a></li>
+				<li><a ui-sref="aim.dong">东南亚</a></li>
+				<li><a ui-sref="aim.hai">海岛</a></li>
+			</ul>
+		</div>
+		<div class="t_right">
+			<div ui-view></div>
+		</div>
+</main>
+<footer class="footer">
+	<ul>
+		<li><a ui-sref="home"><i class="fa fa-home"></i>首页</a></li>
+		<li><a ui-sref="aim.hot" class="color"><i class="fa fa-map-marker"></i>目的地</a></li>
+		<li><a ui-sref="find"><i class="fa fa-compass"></i>发现</a></li>
+		<li><a ui-sref="mine"><i class="fa fa-user"></i>我的</a></li>
+	</ul>
+</footer>
